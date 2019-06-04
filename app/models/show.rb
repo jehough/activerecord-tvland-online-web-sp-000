@@ -1,3 +1,4 @@
 class Show < ActiveRecord::Base
-  has_many :shows
+  has_many :characters
+  has_many
 end
