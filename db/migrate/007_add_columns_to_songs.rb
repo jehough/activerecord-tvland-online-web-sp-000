@@ -1,4 +1,4 @@
-class AddColumnsToSongs < ActiveRecord::Migration[5.1]
+class AddColumnsToShows < ActiveRecord::Migration[5.1]
   def change
     add_column :shows, :day, :string
     add_column :shows, :season, :string
